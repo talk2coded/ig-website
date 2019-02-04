@@ -1,0 +1,58 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #1C2331!important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+nav.navbar a.nav-link{
+    color:#1a237e;
+}
+i.fb{
+    color: #3b5998;
+    padding: 10px;
+    background-color: #fff;
+
+}
+i.twi{
+     background-color: #38A1F3;
+    padding: 10px;
+    color: #fff;
+}
+i.ins{
+    color: #fff;
+    padding: 10px;
+}
+i.lnk{
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important;
+  }
+}
+
+.rgba-gradient {
+            background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+          background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+          background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}

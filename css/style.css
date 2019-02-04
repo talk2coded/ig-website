@@ -1,0 +1,66 @@
+
+html,
+body,
+.view {
+  height: 100%; }
+
+
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+div.card-header h4{
+    color: #ff9100 ;
+}
+div.accordion div.card{
+    background-color: transparent;
+}
+a.btn{
+    background-color:#ff9800 ;
+}
+form.form-inline input,textarea{
+    margin-top: 20px;
+}
+div.card {
+    margin-bottom: 20px;
+}
+i.fb{
+    color: #3b5998;
+    padding: 10px;
+    background-color: #fff;
+
+}i.fba{
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px;
+}
+i.twi{
+     background-color: #38A1F3;
+    padding: 10px;
+    color: #fff;
+}
+i.ins{
+    color: #fff;
+    padding: 10px;
+    background-color: #38A1F3;
+}
+i.lnk{
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+.page-footer {
+  background-color: #1C2331; }
