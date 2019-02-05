@@ -19,7 +19,7 @@ header,
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+  background:  #1C2331 !important;
 }
 nav.navbar a.nav-link{
     color:#1a237e;
@@ -52,7 +52,7 @@ i.lnk{
 }
 
 .rgba-gradient {
-            background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-          background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
-          background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+            background: -webkit-linear-gradient(45deg, rgba(62, 69, 81, 0.2), rgba(255, 255, 255, 0.4) 100%);
+          background: -webkit-gradient(linear, 45deg, from(rgba(62, 69, 81, 0.2), rgba(255, 255, 255, 0.4) 100%)));
+          background: linear-gradient(to 45deg, rgba(62, 69, 81, 0.2), rgba(255, 255, 255, 0.4)  100%);
 }
