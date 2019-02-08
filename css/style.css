@@ -68,3 +68,11 @@ h5.bg{
 
 .page-footer {
   background-color: #1C2331; }
+@media screen and (max-width: 990px) and (min-width: 20px) {
+    h5.bg{
+    font-size: 20px;
+}  
+    h1.bg{
+    font-size: 50px;
+}
+}
