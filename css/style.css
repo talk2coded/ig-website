@@ -62,6 +62,19 @@ i.ins{
 h5.bg{
     font-size: 24px;
 }
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: #1C2331; } }
@@ -70,9 +83,12 @@ h5.bg{
   background-color: #1C2331; }
 @media screen and (max-width: 990px) and (min-width: 20px) {
     h5.bg{
-    font-size: 20px;
+    font-size: 19px;
 }  
     h1.bg{
-    font-size: 50px;
+    font-size: 40px;
 }
+    div.test {
+        margin-top: 100px;
+    }
 }
