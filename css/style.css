@@ -30,18 +30,24 @@ a.btn{
 form.form-inline input,textarea{
     margin-top: 20px;
 }
+div.owl-prev{
+    background-color: #ff9800;
+}
 div.card {
     margin-bottom: 20px;
 }
-i.fb{
-    color: #3b5998;
+footer li{
+    font-size: 17px;
+    font-weight: 400;
+}
+h1.bg{
+    font-size: 70px;
+}
+i.fba{
+    color:#fff ;
     padding: 10px;
-    background-color: #fff;
-
-}i.fba{
     background-color: #3b5998;
-    color: #fff;
-    padding: 10px;
+
 }
 i.twi{
      background-color: #38A1F3;
@@ -49,18 +55,12 @@ i.twi{
     color: #fff;
 }
 i.ins{
-    color: #fff;
-    padding: 10px;
-    background-color: #38A1F3;
-}
-i.lnk{
     background-color: #0077B5;
     color: #fff;
     padding: 10px;
 }
-footer li{
-    font-size: 17px;
-    font-weight: 400;
+h5.bg{
+    font-size: 24px;
 }
 @media only screen and (max-width: 768px) {
   .navbar {
